@@ -41,7 +41,16 @@ body, html {
 body {
     margin: 0;
     padding: 0;
-    background-color: darkgray;
+    background-color: #87071B;
+}
+
+header {
+    display: flex; 
+    justify-content: right;
+}
+header h1 {
+    padding: 0 15px;
+    color: white
 }
 
 .hero-author {
@@ -57,7 +66,7 @@ body {
 .hero-book {
     display: flex;
     justify-content: center;
-    background-color:#C57F7D;
+    background-color:#87071B;
     margin: 20px;
     padding: 10px;
 }
