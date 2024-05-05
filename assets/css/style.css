@@ -48,6 +48,10 @@ header {
     align-items: center;
     border-bottom: 5px solid brown;
 }
+
+header a {
+    color: white;
+}
 .nav {
     display: flex;
     padding-right: 20px;
@@ -57,10 +61,6 @@ header {
     margin: 5px 0;
 }
 
-#headerDiv {
-    border-style: solid;
-    border-color:blueviolet
-}
 header h1 {
     padding: 0 15px;
     color: white;
@@ -82,7 +82,7 @@ header h1 {
     display: flex;
     justify-content: center;
     background-color:#87071B;
-    margin: 0 100px;
+    margin: 50px 100px;
     padding: 0 50px;
 }
 
