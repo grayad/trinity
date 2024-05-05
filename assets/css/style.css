@@ -44,9 +44,17 @@ body {
 
 header {
     display: flex; 
-    /* flex-wrap: wrap; */
-    justify-content: right;
+    justify-content: space-between;
+    align-items: center;
     border-bottom: 5px solid brown;
+}
+.nav {
+    display: flex;
+    padding-right: 20px;
+}
+
+.logo {
+    margin: 5px 0;
 }
 
 #headerDiv {
