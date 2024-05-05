@@ -141,9 +141,10 @@ form {
     display: flex;
     flex-direction: column;
     padding: 20px 50px;
-    width: 50%;
+    width: 40%;
     margin: auto;
     color: white;
+    font-size: large;
 }
 
 form input, textarea {
@@ -151,6 +152,17 @@ form input, textarea {
     padding: 5px;
     border-radius: 10px;
     border: none;
+}
+
+.button {
+    transition: transform 1000ms;
+}
+
+.button:hover, .button:focus-visible {
+    transform: translateY(-.50rem);
+    transition: transform 250ms;
+}
+
 }
 
 
