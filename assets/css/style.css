@@ -53,6 +53,10 @@ header {
 header a {
     color: white;
 }
+
+header a:hover {
+    color: rgb(251, 254, 90);
+}
 .nav {
     display: flex;
     padding-right: 20px;
@@ -156,6 +160,9 @@ form input, textarea {
 
 .button {
     transition: transform 1000ms;
+    background-color: rgb(251, 254, 90);
+    font-weight: bold;
+    color: #87071B;
 }
 
 .button:hover, .button:focus-visible {
