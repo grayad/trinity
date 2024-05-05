@@ -146,6 +146,7 @@ form {
     flex-direction: column;
     padding: 20px 50px;
     width: 40%;
+    height: auto;
     margin: auto;
     color: white;
     font-size: large;
@@ -170,11 +171,16 @@ form input, textarea {
     transition: transform 250ms;
 }
 
-}
-
 
 @media (max-width: 1000px) {
     .hero-book {
         flex-wrap: wrap;
+    }
+
+    form {
+        width: 80%;
+        margin: auto;
+        color: white;
+        font-size: large;
     }
 }
