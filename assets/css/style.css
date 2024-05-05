@@ -46,6 +46,7 @@ header {
     display: flex; 
     /* flex-wrap: wrap; */
     justify-content: right;
+    border-bottom: 5px solid brown;
 }
 
 #headerDiv {
@@ -113,6 +114,19 @@ header h1 {
 .book-text {
     color: white;
     margin-left: 25px
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    border-top: 5px solid brown;
+    margin-top: 60px
+}
+
+footer i {
+    margin: 30px;
+    font-size: 30px;
+    color: white;
 }
 
 
