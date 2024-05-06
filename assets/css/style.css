@@ -56,6 +56,14 @@ footer i {
     z-index: -1;
 }
 
+.author-bio {
+    font-family: "baskerville", serif;
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+    margin: 50px 100px;
+}
+
 /* book page (book.html -- homepage) */
 
 .hero-book {
@@ -138,6 +146,25 @@ form input, textarea {
     /* book and text begins to wrap into 1 column */
     .hero-book {
         flex-wrap: wrap;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .hero-book h1 {
+        font-size: 20px;
+    }
+
+    .hero-book h2 {
+        font-size: 30px;
+    }
+
+    .book-text {
+        font-size: 1rem;
+    }
+
+    .author-bio {
+        font-size: 1rem;
+        margin: 20px 25px;
     }
 
     /* form increases width and font */
