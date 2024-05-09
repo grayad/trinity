@@ -177,8 +177,10 @@ form input, textarea {
         margin: 20px 25px;
     }
 
-    /* form increases width and font */
+    /* form increases width and font -- decrease padding to better fit page*/
     form {
         width: 80%;
+        padding: 15px 30px;
     }
+
 }
