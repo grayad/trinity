@@ -143,6 +143,16 @@ form input, textarea {
 
 /* media query for smaller screens */
 @media (max-width: 1000px) {
+    /* header font size decreases to adjust to screen */
+    header h1 {
+        font-size: 20px;
+        padding-right: 0;
+    }
+
+    header {
+        justify-content: center;
+    }
+
     /* book and text begins to wrap into 1 column */
     .hero-book {
         flex-wrap: wrap;
