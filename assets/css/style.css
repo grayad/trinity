@@ -169,13 +169,16 @@ form input, textarea {
     }
 
     .book-text {
-        font-size: 1rem;
         margin: 0;
     }
 
+    .book-text p{
+        font-size: 20px;
+    }
+
     .author-bio {
-        font-size: 1rem;
         margin: 20px 25px;
+        font-size: 20px;
     }
 
     /* form increases width and font -- decrease padding to better fit page*/
