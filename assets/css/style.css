@@ -115,10 +115,10 @@ footer i {
     border: none;
     border-radius:15px;
     padding: 15px;
+    font-family: "oswald", sans-serif;
     font-size: large;
     font-weight: 800;
     color: #87071B;
-    font-family: "oswald", sans-serif;
 }
 
 /* contact page */
