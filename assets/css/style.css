@@ -110,6 +110,16 @@ footer i {
     margin-left: 25px;
 }
 
+.book-text button{
+    background-color: rgb(251, 254, 90);
+    border: none;
+    border-radius:15px;
+    padding: 15px;
+    font-size: large;
+    font-weight: 800;
+    color: #87071B;
+    font-family: "oswald", sans-serif;
+}
 
 /* contact page */
 form {
